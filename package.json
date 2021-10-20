@@ -1,0 +1,30 @@
+{
+  "name": "chemsificator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index",
+    "dev": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnibalDBXD/chemsificator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnibalDBXD/chemsificator/issues"
+  },
+  "homepage": "https://github.com/AnibalDBXD/chemsificator#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "discord.js": "^13.2.0",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
